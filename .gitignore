@@ -1,4 +1,9 @@
-tmp/
+/tmp
+/modules
+/lib
+/test-result
+/logs
 yabe.iml
 yabe.ipr
 yabe.iws
+.gitignore~
