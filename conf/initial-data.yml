@@ -14,6 +14,16 @@ User(jeff):
     password:       secret
     fullname:       Jeff
 
+User(fulano):
+    email:          fulano@gmail.com
+    password:       secret
+    fullname:       Fulano
+
+User(ciclano):
+    email:          ciclano@gmail.com
+    password:       secret
+    fullname:       Ciclano
+
 Post(firstBobPost):
     title:          About the model layer
     postedAt:       2009-06-14
@@ -30,15 +40,116 @@ Post(firstBobPost):
                     delegated to the infrastructure. This layer is the heart of business software.
 
 Post(secondBobPost):
-    title:          Just a test of YABE
+    title:          Just a test of YABE1
     postedAt:       2009-03-25
     author:         bob
     content:        >
                     Well, it's just a test.
 
-Post(jeffPost):
-    title:          The MVC application
+Post(thirddBobPost):
+    title:          Just a test of YABE2
+    postedAt:       2009-03-26
+    author:         bob
+    content:        >
+                    Well, it's just a test.
+
+Post(fourthBobPost):
+    title:          Just a test of YABE3
+    postedAt:       2009-03-27
+    author:         bob
+    content:        >
+                    Well, it's just a test.
+
+Post(fifthBobPost):
+    title:          Just a test of YABE4
+    postedAt:       2009-03-28
+    author:         bob
+    content:        >
+                    Well, it's just a test.
+
+Post(sixthBobPost):
+    title:          Just a test of YABE5
+    postedAt:       2009-03-29
+    author:         bob
+    content:        >
+                    Well, it's just a test.
+
+Post(seventhBobPost):
+    title:          Just a test of YABE6
+    postedAt:       2009-03-30
+    author:         bob
+    content:        >
+                    Well, it's just a test.
+Post(eighthBobPost):
+    title:          Just a test of YABE7
+    postedAt:       2009-04-01
+    author:         bob
+    content:        >
+                    Well, it's just a test.
+
+Post(firstJeffPost):
+    title:          The MVC application1
     postedAt:       2009-06-06
+    author:         jeff
+    content:        >
+                    A Play! application follows the MVC architectural pattern as applied to the
+                    architecture of the Web.
+
+                    This pattern splits the application into separate layers: the Presentation
+                    layer and the Model layer. The Presentation layer is further split into a
+                    View and a Controller layer.
+
+Post(secondJeffPost):
+    title:          The MVC application2
+    postedAt:       2009-06-07
+    author:         jeff
+    content:        >
+                    A Play! application follows the MVC architectural pattern as applied to the
+                    architecture of the Web.
+
+                    This pattern splits the application into separate layers: the Presentation
+                    layer and the Model layer. The Presentation layer is further split into a
+                    View and a Controller layer.
+
+Post(thirdJeffPost):
+    title:          The MVC application3
+    postedAt:       2009-06-08
+    author:         jeff
+    content:        >
+                    A Play! application follows the MVC architectural pattern as applied to the
+                    architecture of the Web.
+
+                    This pattern splits the application into separate layers: the Presentation
+                    layer and the Model layer. The Presentation layer is further split into a
+                    View and a Controller layer.
+
+Post(fourthJeffPost):
+    title:          The MVC application4
+    postedAt:       2009-06-09
+    author:         jeff
+    content:        >
+                    A Play! application follows the MVC architectural pattern as applied to the
+                    architecture of the Web.
+
+                    This pattern splits the application into separate layers: the Presentation
+                    layer and the Model layer. The Presentation layer is further split into a
+                    View and a Controller layer.
+
+Post(fifthJeffPost):
+    title:          The MVC application5
+    postedAt:       2009-06-10
+    author:         jeff
+    content:        >
+                    A Play! application follows the MVC architectural pattern as applied to the
+                    architecture of the Web.
+
+                    This pattern splits the application into separate layers: the Presentation
+                    layer and the Model layer. The Presentation layer is further split into a
+                    View and a Controller layer.
+
+Post(sixthJeffPost):
+    title:          The MVC application6
+    postedAt:       2009-06-11
     author:         jeff
     content:        >
                     A Play! application follows the MVC architectural pattern as applied to the
