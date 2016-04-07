@@ -366,7 +366,13 @@ form label {
 
 .tags-list .tag {
     cursor: pointer;
+    padding: 1px 4px;
     color: red;
+}
+
+.crudField .tags-list .selected {
+    background: #222;
+    color: #fff;
 }
 
 #adminMenu {
